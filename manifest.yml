@@ -1,0 +1,7 @@
+---
+applications:
+- name: MyWebApp-steeltoe
+  instances: 1
+  stack: cflinuxfs3
+  buildpack: dotnet_core_buildpack
+  command: "$DEPS_DIR/0/dotnet_publish/MyWebApp-steeltoe --urls http://0.0.0.0:$PORT"

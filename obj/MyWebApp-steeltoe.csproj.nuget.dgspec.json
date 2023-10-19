@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/schelini/Documents/Training/tas/applications/MyWebApp-steeltoe/MyWebApp-steeltoe.csproj": {}
+  },
+  "projects": {
+    "/Users/schelini/Documents/Training/tas/applications/MyWebApp-steeltoe/MyWebApp-steeltoe.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/schelini/Documents/Training/tas/applications/MyWebApp-steeltoe/MyWebApp-steeltoe.csproj",
+        "projectName": "MyWebApp-steeltoe",
+        "projectPath": "/Users/schelini/Documents/Training/tas/applications/MyWebApp-steeltoe/MyWebApp-steeltoe.csproj",
+        "packagesPath": "/Users/schelini/.nuget/packages/",
+        "outputPath": "/Users/schelini/Documents/Training/tas/applications/MyWebApp-steeltoe/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/schelini/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Steeltoe.Bootstrap.Autoconfig": {
+              "target": "Package",
+              "version": "[3.2.2, )"
+            },
+            "Steeltoe.Extensions.Configuration.CloudFoundryCore": {
+              "target": "Package",
+              "version": "[3.2.2, )"
+            },
+            "Steeltoe.Management.EndpointCore": {
+              "target": "Package",
+              "version": "[3.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
